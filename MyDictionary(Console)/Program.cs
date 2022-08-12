@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyDictionary_Console_.LanguageScoringApi;
 
 namespace MyDictionary_Console_
 {
@@ -10,6 +11,9 @@ namespace MyDictionary_Console_
     {
         static void Main(string[] args)
         {
+            LangScoringClient client = new LangScoringClient();
+            string word = "coincide";
+            Console.WriteLine(client.GetWordScore(word).Result.Ten_degree);
         }
     }
 }

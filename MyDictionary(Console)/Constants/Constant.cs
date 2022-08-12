@@ -12,6 +12,6 @@ namespace MyDictionary_Console_.Constants
         public static string WordsApiHost = "wordsapiv1.p.rapidapi.com";
         public static string LangScoringHost = "twinword-language-scoring.p.rapidapi.com";
 
-        public static string BotToken = " ";
+        public static string BotToken = "5406319925:AAGcyLzUA8CwEhXt-2H8Sco1h5brENnk3pk";
     }
 }

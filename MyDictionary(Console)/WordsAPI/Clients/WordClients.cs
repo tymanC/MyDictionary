@@ -72,6 +72,7 @@ namespace MyDictionary_Console_.WordsAPI.Clients
             var result = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<ExamplesModel>(result);
         }
+        
 
     }
 }
